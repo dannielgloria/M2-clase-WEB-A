@@ -24,11 +24,12 @@
     <! -- Forma 3 de agregar CSS -->
     <h2 style="color: #6a994e; font-size: 50px;">Temas del curso</h2>
     <ul>
-        <li><a href="#selectores-basicos">Selectores básicos</a></li>
-        <li><a href="#selectores-universal-combinaciones">Selectores universales y combinaciones</a></li>
+        <li><a href="#selectores_basicos">Selectores básicos</a></li>
+        <li><a href="#selectores_universal_combinaciones">Selectores universales y combinaciones</a></li>
+        <li><a href="#display_tipos_cajas">Display y tipos de cajas</a></li>
     </ul>
 
-    <section id="selectores-basicos">
+    <section id="selectores_basicos">
         <h2>Selectores básicos</h2>
         <p>Los selectores básicos en CSS te permiten seleccionar elementos HTML para aplicar estilos. Algunos de los selectores más comunes incluyen:</p>
         <ul>
@@ -49,6 +50,22 @@
         <ul>
             <li><strong>Selector universal:</strong> selecciona todos los elementos, por ejemplo, <code>*</code>.</li>
             <li><strong>Combinaciones de selectores:</strong> puedes combinar selectores para ser más específicos, por ejemplo, <code>div p</code> para seleccionar todos los párrafos dentro de un div.</li>
-    </section>  
+    </section>
+
+    <section id="display_tipos_cajas">
+        <h2>Display y tipos de cajas</h2>
+        <p>El modelo de caja en CSS describe cómo se representan los elementos en la página. El tipo de display determina cómo se comporta un elemento. Algunos tipos comunes de display incluyen:</p>
+        <ul>
+            <li><strong>Block:</strong> el elemento ocupa todo el ancho disponible y comienza en una nueva línea, por ejemplo, <code>div</code>.</li>
+            <li><strong>Inline:</strong> el elemento solo ocupa el espacio necesario y no comienza en una nueva línea, por ejemplo, <code>span</code>.</li>
+            <li><strong>Inline-block:</strong> combina características de block e inline, permitiendo que el elemento tenga un tamaño específico pero sin forzar un salto de línea.</li>
+        </ul>
+        <h3>Ejemplos</h3>
+        <div class="display_block">Ejemplo de display block</div>
+        <span class="display_inline">Ejemplo de display inline</span>
+        <div class="display_inline_block">Ejemplo de display inline-block</div>
+        <div class="display_inline_block_2">Ejemplo de display inline-block</div>
+        <div class="display_block">Otro ejemplo de display block</div>
+    </section>
 </body>
 </html>
