@@ -1,7 +1,10 @@
-body {
+* {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 20px;
+}
+
+body {
+    line-height: 1.6;
     background-color: #a7c957;
 }
 
@@ -17,4 +20,26 @@ body {
     font-size: 35px;
     color: #272727;
     font-style: italic;
+}
+
+/* combinación de selectores */
+#selectores_universal_combinaciones{
+    font-size: 25px;
+    color: #386641;
+}
+
+#selectores_universal_combinaciones p{
+    color: #af3131;
+    font-size: 23px;
+}
+
+#selectores_universal_combinaciones ul li strong{
+    color: #0693ba;
+    font-size: 10px;
+}
+
+/* Si tiene una coma no es una combinación de selectores, es un selector múltiple */
+p, li{
+    color: #272727;
+    font-size: 20px;
 }
