@@ -34,7 +34,7 @@ h1{
 .container2{
     border: 2px solid #590d22;
     display: flex;
-    flex-direction: row;
+    flex-direction:row-reverse;
     justify-content: space-around; /* distribuye el espacio entre los items de manera uniforme */
     align-items: center; /* alinea los items en el eje vertical */
 }
